@@ -17,7 +17,7 @@ a:hover {
 body {
   line-height: 1.9;
   /* Set a font size */
-  font-size: 16px;
+  font-size: 24px;
   font-family: 'coo', sans-serif;
 
   /* Begin The Redundancies */
@@ -106,7 +106,7 @@ li a:active {
 #menu a {
   font-family: 'coo';
 
-  font-size: 13px;
+  font-size: 18px;
   padding: 0px;
   text-decoration: underline;
   text-decoration-style: wavy;
@@ -155,7 +155,10 @@ li a:active {
   margin-top: 200px;
 }
 .dod2 {
-  margin-top: 100px;
+  margin-top: 130px;
+}
+.dode {
+  margin-top: 145px;
 }
 .dod3 {
   margin-top: 50px;
@@ -172,7 +175,9 @@ li a:active {
   height: 70px;
 }
 footer p {
-  margin-top: 100px;
   color: black;
   font-family: 'coo';
+}
+.dod7 {
+  margin-bottom: 0px;
 }
