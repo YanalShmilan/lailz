@@ -1,0 +1,177 @@
+h1 {
+  font-weight: bold;
+}
+p {
+  font-family: 'coo';
+}
+a {
+  font-family: 'coo';
+}
+a:hover {
+  font-size: 20px;
+  padding: 10px;
+  text-decoration-style: wavy;
+  text-decoration-color: #ffaa9f;
+}
+body {
+  line-height: 1.9;
+  /* Set a font size */
+  font-size: 16px;
+  font-family: 'coo', sans-serif;
+
+  /* Begin The Redundancies */
+  background-image: -webkit-linear-gradient(
+      0deg,
+      transparent 5em,
+      rgba(255, 0, 0, 0.2) 0,
+      transparent 5.1em
+    ),
+    -webkit-linear-gradient(rgba(0, 0, 255, 0.3) 1px, transparent 0);
+  background-image: -moz-linear-gradient(
+      0deg,
+      transparent 5em,
+      rgba(255, 0, 0, 0.2) 0,
+      transparent 5.1em
+    ),
+    -moz-linear-gradient(rgba(0, 0, 255, 0.3) 1px, transparent 0);
+  background-image: -o-linear-gradient(
+      0deg,
+      transparent 5em,
+      rgba(255, 0, 0, 0.2) 0,
+      transparent 5.1em
+    ),
+    -o-linear-gradient(rgba(0, 0, 255, 0.3) 1px, transparent 0);
+  background-image: -ms-linear-gradient(
+      0deg,
+      transparent 5em,
+      rgba(255, 0, 0, 0.2) 0,
+      transparent 5.1em
+    ),
+    -ms-linear-gradient(rgba(0, 0, 255, 0.3) 1px, transparent 0);
+  -webkit-background-size: 100% 2em;
+  -moz-background-size: 100% 2em;
+
+  /* In a perfect world... */
+  background-image: linear-gradient(
+      0deg,
+      transparent 5em,
+      rgba(255, 0, 0, 0.2) 0,
+      transparent 5.1em
+    ),
+    linear-gradient(rgba(0, 0, 255, 0.3) 1px, transparent 0);
+  background-size: 100% 2em;
+}
+
+.lines {
+  border-left: 1px solid #ffaa9f;
+  border-right: 1px solid #ffaa9f;
+  width: 2px;
+  float: left;
+  height: 100%;
+  position: fixed;
+
+  margin-left: 40px;
+}
+@font-face {
+  font-family: 'doodle';
+  src: url('Pencil Doodle.otf');
+}
+@font-face {
+  font-family: 'coo';
+  src: url('IndieFlower-Regular.ttf');
+}
+ul {
+  list-style-type: none;
+}
+li a:active {
+  text-decoration-style: wavy;
+  text-decoration-color: #ffaa9f;
+}
+#section1 {
+  margin-top: 89px;
+}
+#section2 {
+  margin-top: 90px;
+}
+#menu {
+  top: 100px;
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+}
+#menu a {
+  font-family: 'coo';
+
+  font-size: 13px;
+  padding: 0px;
+  text-decoration: underline;
+  text-decoration-style: wavy;
+  text-decoration-color: #ffaa9f;
+}
+.slideanim {
+  visibility: hidden;
+}
+.slide {
+  /* The name of the animation */
+  animation-name: slide;
+  -webkit-animation-name: slide;
+  /* The duration of the animation */
+  animation-duration: 1s;
+  -webkit-animation-duration: 1s;
+  /* Make the element visible */
+  visibility: visible;
+}
+
+/* Go from 0% to 100% opacity (see-through) and specify the percentage from when to slide in the element along the Y-axis */
+@keyframes slide {
+  0% {
+    opacity: 0;
+    transform: translateY(70%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0%);
+  }
+}
+@-webkit-keyframes slide {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(70%);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0%);
+  }
+}
+.img {
+  width: 200px;
+  height: 200px;
+}
+.dod {
+  margin-top: 200px;
+}
+.dod2 {
+  margin-top: 100px;
+}
+.dod3 {
+  margin-top: 50px;
+}
+.dod4 {
+  margin-top: 60px;
+}
+.dod6 {
+  margin-top: 100px;
+}
+
+.dod6 img {
+  width: 70px;
+  height: 70px;
+}
+footer p {
+  margin-top: 100px;
+  color: black;
+  font-family: 'coo';
+}

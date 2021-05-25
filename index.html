@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Appreciation letter</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="style.css" />
+    <script>
+      $(document).ready(function () {
+        $('[data-toggle="tooltip"]').tooltip();
+      });
+    </script>
+    <script>
+      $(document).ready(function () {
+        $('[data-toggle="modal"]').tooltip();
+      });
+    </script>
+ <script>
+  $(document).ready(function(){
+    // Add smooth scrolling to all links in navbar + footer link
+    $("#menu a, footer a[href='#myPage']").on('click', function(event) {
+  
+     // Make sure this.hash has a value before overriding default behavior
+    if (this.hash !== "") {
+  
+      // Prevent default anchor click behavior
+      event.preventDefault();
+  
+      // Store hash
+      var hash = this.hash;
+  
+      // Using jQuery's animate() method to add smooth page scroll
+      // The optional number (900) specifies the number of milliseconds it takes to scroll to the specified area
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 900, function(){
+  
+        // Add hash (#) to URL when done scrolling (default click behavior)
+        window.location.hash = hash;
+        });
+      } // End if
+    });
+  })
+  $(window).scroll(function() {
+  $(".slideanim").each(function(){
+    var pos = $(this).offset().top;
+
+    var winTop = $(window).scrollTop();
+    if (pos < winTop + 600) {
+      $(this).addClass("slide");
+    }
+  });
+});
+  </script>
+    <style>
+      /* Set height of the grid so .sidenav can be 100% (adjust if needed) */
+      .row.content {
+        height: 1500px;
+      }
+
+      /* Set gray background color and 100% height */
+      .sidenav {
+        height: 100%;
+      }
+
+      /* Set black background color, white text and some padding */
+      footer {
+        color: white;
+        padding: 15px;
+      }
+
+      /* On small screens, set height to 'auto' for sidenav and grid */
+      @media screen and (max-width: 767px) {
+        .sidenav {
+          height: auto;
+          padding: 15px;
+        }
+        .row.content {
+          height: auto;
+        }
+      }
+    </style>
+  </head>
+  <body >
+    <div class="container-fluid center-block">
+      <div class="row content text-center ">
+        <div class="col-sm-2 ">
+          <center>
+            <br />
+            <section id="menu">
+            <h1>&nbspMenu</h1>
+            <ul >
+              <li><a href="#section1">Home</a></li>
+              <li><a href="#section2">About laila</a></li>
+              <li><a href="#section3">How to be a Good Katkoot</a></li>
+              <li><a href="#section3">Contact laila</a></li>
+            </ul>
+          </section>
+          </center>
+          <br />
+        </div>
+        <div class="col-sm-1">
+          <div class="lines"></div>
+        </div>
+
+        <div class="col-sm-8">
+          <div class="text-center">
+            <br />
+            <section id="section1">
+
+            <h1>Get to know lailz!</h1>
+            <p>
+              let's start by finding the best laila! <br />
+              <a href="#" data-toggle="tooltip" title="Nope!">Laila Y</a> ~
+              <a href="#" data-toggle="tooltip" title="Nope!">Laila C</a> ~
+              <a href="#" data-toggle="tooltip" title="Nope!">Laila H</a> ~
+              <a href="#" data-toggle="tooltip" title="Nope!">Laila X</a> ~
+              <a href="#" data-toggle="tooltip" title="Nope!">Laila F</a> ~
+              <a href="#" data-toggle="tooltip" title="Nope!">Laila S</a> ~
+              <a href="#" data-toggle="tooltip" title="Nope!">Laila D</a> ~
+              <a href="#" data-toggle="tooltip" title="Nope!">Laila K</a> ~
+              <a href="#" data-toggle="tooltip" title="Nope!">Laila P</a> ~
+              <a href="#" data-toggle="tooltip" title="Nope!">Laila J</a> ~
+              <a href="#" data-toggle="tooltip" title="Nope!">Laila V</a> ~
+              <a href="#" data-toggle="tooltip" title="Getting closer!"
+                >Laila M</a
+              >
+              ~
+              <a href="#" data-toggle="tooltip" title="Getting closer!"
+                >Laila B</a
+              >
+              ~
+              <a href="#" data-toggle="tooltip" title="Getting closer!"
+                >Laila Q</a
+              >
+              ~
+              <a
+                href="#"
+                title="Obviously!"
+                data-toggle="modal" data-target="#myModal">
+                Laila A</a
+              >
+              ~
+              <a href="#" data-toggle="tooltip" title="Getting closer!"
+                >Laila I</a
+              >
+              ~
+              <a href="#" data-toggle="tooltip" title="Getting closer!"
+                >Laila O</a
+              >
+              ~
+              <a href="#" data-toggle="tooltip" title="Getting closer!"
+                >Laila U</a
+              >
+              ~ <a href="#" data-toggle="tooltip" title="Nope!">Laila W</a> ~
+              <a href="#" data-toggle="tooltip" title="Nope!">Laila N</a> ~
+              <a href="#" data-toggle="tooltip" title="Nope!">Laila G</a> ~
+              <a href="#" data-toggle="tooltip" title="Nope!">Laila R</a> ~
+              <a href="#" data-toggle="tooltip" title="Nope!">Laila T</a> ~
+              <a href="#" data-toggle="tooltip" title="Nope!">Laila E</a> ~
+              <a href="#" data-toggle="tooltip" title="Nope!">Laila L</a> ~
+              <a href="#" data-toggle="tooltip" title="Nope!">Laila Z</a>
+            </p>
+          </div>
+        </section>
+        <section id="section2">
+        <div class="row dod">
+          <div class="col-sm-4 slideanim "> <img src="images/instructer.png" class="img" /> </div>
+          <div class="col-sm-8 slideanim dod3" >Laila is a senior instructer! with a 3 years of experience and a speciality in making coding fun.</div>
+  </div> 
+  <div class="row dod2">
+    <div class="col-sm-8 slideanim dod3" >Laila likes the piano, but unlike Mozart .. she can please both your ears and eyes!</div>
+
+    <div class="col-sm-4 slideanim "> <img src="images/piano.png" class="img" /> </div>
+</div> 
+  <div class="row dod2">
+    <div class="col-sm-4 slideanim "> <img src="images/drum.png" class="img" /> </div>
+    <div class="col-sm-8 slideanim dod4">Laila is a sad lonely drummer .. no one rolls the drum with her :&nbsp;(</div>
+</div> 
+  <div class="row dod2">
+    <div class="col-sm-8 slideanim dod3">Laila also likes collecting books! but i doubt she read any .. yes, they are exactly like your academic degree, useless</div>
+    <div class="col-sm-4 slideanim "> <img src="images/book.png" class="img" /> </div>
+</div> 
+<div class="row dod2">
+  <div class="col-sm-4 slideanim "> <img src="images/magic.png" class="img" /> </div>
+  <div class="col-sm-8 slideanim dod3">"WOW .. AMAZING .. MAGIC!" <br> - laila when a code works as intended </div>
+</div> 
+  <div class="row dod2">
+    <div class="col-sm-8 slideanim dod3">Laila seems evil sometimes..</div>
+
+    <div class="col-sm-4 slideanim "> <img src="images/devil.png" class="img" /> </div>
+</div> 
+  <div class="row dod2">
+    <div class="col-sm-4 slideanim "> <img src="images/angel.png" class="img" /> </div>
+    <div class="col-sm-8 slideanim dod3">but no worries it's all for your own good!</div>
+</div> 
+</section>
+<section id='section3'>
+  <div class="row dod2">
+    <div class="col-sm-8 slideanim dod3">How to be a good katkoot : <br> - Never use a for loop! <br> - Look alwayes for the hard way to do anything <br> - Bring her food.</div>
+
+    <div class="col-sm-4 slideanim "> <img src="images/chick.png" class="img" /> </div>
+</div> 
+</section>
+<section id='section4'>
+  <div class="row dod6">
+
+    <div class="col-sm-offset-1 slideanim "> Don't hesitate she's alwayes there to help! <br> <a href="https://twitter.com/lailz_95/"><img src="images/twitter.png" class="img" /> </a> 
+    <a href="https://discordapp.com/users/687595991163207699/"><img src="images/discord.png" class="img" /></a>
+    <a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwjTwL3SpuLwAhXMh_0HHa5FC6UQFjABegQIAhAD&url=https%3A%2F%2Fkw.linkedin.com%2Fin%2Flaila-a-726009126%3Ftrk%3Dpublic_profile_browsemap_profile-result-card_result-card_full-click&usg=AOvVaw1xIgM7PfWuDJ5pKa92lzMM"><img src="images/linkedin.png" class="img" /></a> </div>
+
+</div> 
+</section>
+
+
+        </div>
+  
+      </div>
+    </div>
+
+    <footer class="container-fluid">
+      <center>
+      <p>Copyright © 2021 قيس بن الملوح</p>
+    </center>
+    </footer>
+  </body>
+  <!-- Modal -->
+<div id="myModal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Congratulations! here's some words of wisdom for you</h4>
+      </div>
+      <div class="modal-body">
+        <p>A wise man once told me: <b>"If it works .. it doesn't matter how it looks"</b> <br> 
+        He also said: <b>"dealing with CSS is like dealing with an angry women" </b> <br>
+      - me / Aka: the wise man / 2021/5/25</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Pfff</button>
+      </div>
+    </div>
+
+  </div>
+</div>
+</html>
